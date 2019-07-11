@@ -7,6 +7,9 @@ function FriendCard (props) {
                <div className='img-container'>
                     <img alt={props.name} src={props.image} />
                </div>
+               <div className="className">
+                    
+               </div>
           </div>
      )
 }
