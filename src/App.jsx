@@ -1,34 +1,29 @@
-import React, { Component } from "react";
-import FriendCard from "./components/FriendCard/index";
-import Wrapper from "./components/Wrapper/index";
-import Title from "./components/Title/index";
-import friends from "./friends.json";
+import React, { Component } from 'react';
+import FriendCard from './components/FriendCard/index';
+import Nav from './components/Nav/index';
+import Wrapper from './components/Wrapper/index';
+import Row from './Row';
 
-class App extends Component {
-    // set state
-    state = {
-        friends,
-        currentScore: 0,
-        topScore: 0,
-        trueFalse: '',
-        clicked: []
-    }
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-// Click Handler
-
-
-// Increment Score
-
-
-// Reset Score
-
-
-// Shuffle Deck
-
-
-// Render Screen
-
-
-// export app
-exports default App;
+export default App;
