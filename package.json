@@ -2,13 +2,13 @@
   "name": "remember-me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jobu206.github.io/remember-me",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
+  "homepage": "https://jobu206.github.io/remember-me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
