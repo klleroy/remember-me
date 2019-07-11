@@ -6,6 +6,15 @@
      },
      {
           "id": 2,
-          "image": 
+          "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/hank-hill-king-of-the-hill-4.3.jpg",
+          "clicked": false
+     },
+     {
+          "id": 3,
+          "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/dale-gribble-king-of-the-hill-7.71.jpg",
+          "clicked": false
+     },
+     {
+          
      }
 ]
