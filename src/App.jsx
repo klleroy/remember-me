@@ -37,7 +37,7 @@ class App extends Component {
         } else {
             this.handleReset();
         }
-    }
+    };
 
     // handle score increment
     handleIncrement = () => {
@@ -50,7 +50,7 @@ class App extends Component {
             this.setState({ topScore: newScore });
         }
         else if (newScore === 12) {
-            this.setState('Congratulations, Bobby!!')
+            this.setState({ trueFalse: 'Congratulations, Bobby!!' });
         }
         this.handleShuffle();
     };
@@ -62,15 +62,16 @@ class App extends Component {
             topScore: this.state.topScore,
             trueFalse: 'Goodbye, Bill',
             clicked: []
-        })
+        });
+        this.handleShuffle();
     }
 
     // handle shuffle
     handleShuffle = () => {
         let shuffledFriends = shuffleFriends(friends);
         this.setState({ friends: shuffledFriends });
-    };
-
+      };
+    
     // render screen
     render() {
         return (
@@ -81,12 +82,15 @@ class App extends Component {
                     topScore={this.setState.topScore}
                     trueFalse={this.state.trueFalse}
                 />
+
                 <Title>
-                    Click on an image to earn points, but don't click on any more than once!
+                    Click on an image to earn points, 
+                    but don't click on any more than once!
                 </Title>
+                
                 <Container>
                     <Row>
-                        {this.state.friends.map(friend => {
+                        {this.state.friends.map(friend => (
                             <Column size='md-4 sm-8'>
                                 <FriendCard 
                                     key={friend.id}
@@ -98,11 +102,11 @@ class App extends Component {
                                     image={friend.image}
                                 />
                             </Column>
-                        })}
+                        ))}
                     </Row>
                 </Container>
             </Wrapper>
-        )
+        );
     }
 }
 
