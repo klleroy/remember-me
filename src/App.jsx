@@ -25,7 +25,7 @@ class App extends Component {
         friends,
         currentScore: 0,
         topScore: 0,
-        trueFalse: '',
+        trueFalse: "",
         clicked: []
     }
 
@@ -44,7 +44,7 @@ class App extends Component {
         const newScore = this.state.currentScore + 1;
         this.setState({
             currentScore: newScore,
-            trueFalse: ''
+            trueFalse: ""
         });
         if (newScore >= this.state.topScore) {
             this.setState({ topScore: newScore });
@@ -78,8 +78,8 @@ class App extends Component {
             <Wrapper>
                 <Nav
                     title='King of the Hill Memory Game!'
-                    score={this.setState.currentScore}
-                    topScore={this.setState.topScore}
+                    score={this.state.currentScore}
+                    topScore={this.state.topScore}
                     trueFalse={this.state.trueFalse}
                 />
 

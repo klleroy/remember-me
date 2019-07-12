@@ -3,9 +3,9 @@ nav {
     font-size: 3rem;
     color: #fff;
     margin-bottom: 50px;
-    background-color: rgb(56, 56, 56);
+    background-color: #383838;
     height: auto;
-    font-family: 'Bungee', cursive;
+    font-family: 'Luckiest Guy', cursive;
   }
   
   a {
@@ -21,17 +21,15 @@ nav {
     display: inline-block;
     padding: 26px 0;
     width: 25%;
-    /* text-align: center; */
   }
   
   ul {
-    /* padding-left: 0px; */
     display: flex;
     align-items: center;
   }
   
   @media only screen and (max-width: 750px) {
-    #cur-sco, #top-sco {
+    #curScore, #topScore {
       font-size: 2rem;
     }
   }
