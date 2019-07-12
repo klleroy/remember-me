@@ -33,7 +33,7 @@ class App extends Component {
     handleClick = id => {
         if (this.state.clicked.indexOf(id) === -1) {
             this.handleIncrement();
-            this.setState({ clicked: this.state.clicked.concat(id) })
+            this.setState({ clicked: this.state.clicked.concat(id) });
         } else {
             this.handleReset();
         }
