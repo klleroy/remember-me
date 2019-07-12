@@ -1,6 +1,20 @@
+# King of the Hill Memory Game
+
+[React](https://reactjs.org/) &#124; [![NPM version](http://img.shields.io/npm/v/npm-expansions.svg?style=flat-square)](https://www.npmjs.org/package/npm-expansions)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+A memory game created in React.
+
+## Usage
+Click on an image to earn points, but don't click on any more than once!
+
+![Screenshot](public/kothScreenshot.png)
+
+## Technologies and Techniques Used
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Development Notes
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -66,3 +80,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Contributing
+- Fork it (https://github.com/jobu206/remember-me/fork)
+- Create your feature branch `git checkout -b feature/remember-me`
+- Commit your changes `git commit -am 'Add your Message Here'`
+- Push to the branch `git push origin feature/remember-me`
+- Create a new Pull Request
+
+## Support
+- Open a new issue [here](https://github.com/jobu206/remember-me/issues/new) for support.
+
+## Author
+**Kevin LeRoy** - <a href="https://kevinleroy.me" target="_blank">https://kevinleroy.me</a>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
