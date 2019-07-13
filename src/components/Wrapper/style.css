@@ -1,11 +1,11 @@
 .wrapper {
-    background-color: #092257;
-    background-image: url('https://img00.deviantart.net/f228/i/2012/081/1/6/dale_gribble__aka_rusty_shackleford_by_whiteboardguy-d4tkwq0.jpg');
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
-    overflow: auto;
-    padding-bottom: 50px;
-  }
+  background: url('https://img00.deviantart.net/f228/i/2012/081/1/6/dale_gribble__aka_rusty_shackleford_by_whiteboardguy-d4tkwq0.jpg') no-repeat center center fixed;
+  background-color: #092257;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 50px;
+}
