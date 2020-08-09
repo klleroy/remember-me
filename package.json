@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.3.0"
   },
-  "homepage": "https://jobu206.github.io/remember-me",
+  "homepage": "https://klleroy.github.io/remember-me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
